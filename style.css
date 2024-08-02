@@ -1,0 +1,134 @@
+section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.banner {
+    margin-top: 60px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0)), 
+    url(resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    color: white;
+    height: 600px;
+    width: 1320px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: Merriweather;
+}
+.banner-text {
+    text-align: center;
+}
+.banner-text h3 {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+}
+.banner-main-text {
+    font-size: 80px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.discount {
+    justify-content: center;
+    text-align: center;
+    font-family: Inter;
+}
+.discount-text {
+    display: inline;
+}
+.discount-amount {
+    color: #F00;
+    font-size: 90px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+.discount-deal {
+    color: #F00;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 5px;
+}
+.discount-category {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 5px;
+    margin-bottom: 30px;
+}
+.mid-sec {
+    display: flex;
+    justify-content: center;
+}
+.mid {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0)), 
+    url(resources/Vectorrr.png);
+    height: 600px;
+    width: 1320px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+.mid-text {
+    color: white;
+}
+.mid-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    align-items: center;
+    padding: 70px 140px;
+}
+.mid-big {
+    font-size: 70px;
+    font-weight: 600;
+    font-family: Merriweather;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.join {
+    background-color: rgba(0, 0, 255, 0);
+    color: white;
+    border: none;
+    padding-left: 50px;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+}
+.mid-small {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.time {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10), white);
+    border-radius: 20px;
+}
+.time-container {
+    align-items: center;
+    text-align: center;
+    padding: 90px 385px;
+}
+.time-text {
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 600;
+    margin: 10px;
+}
+.time-red {
+    color: red;
+}
+.join-2 {
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    background-color: #F00;
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: 600;
+    border-radius: 9px;
+}
